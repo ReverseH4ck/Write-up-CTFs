@@ -6,10 +6,6 @@
 
 > Exploitez une application Web vulnérable et certaines erreurs de configuration pour obtenir des privilèges root.
 
----
-
-## Étape 1 : Scan Nmap
-
 J'ai commencé par un scan Nmap avec la commande suivante :  
 `nmap -sV -sC 10.10.97.21`, où j'ai trouvé les ports 80 et 22 ouverts.
 
